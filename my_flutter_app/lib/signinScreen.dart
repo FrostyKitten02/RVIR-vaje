@@ -15,8 +15,7 @@ class SigninScreen extends StatefulWidget {
 class _SigninScreenState extends State<SigninScreen> {
   TextEditingController controllerName = TextEditingController();
   TextEditingController controllerLastName = TextEditingController();
-
-  String workPlace = "";
+  TextEditingController controllerPlace = TextEditingController();
 
   DateTime birthDate = DateTime.now();
   TimeOfDay workStart = TimeOfDay.now();
@@ -36,6 +35,7 @@ class _SigninScreenState extends State<SigninScreen> {
     WorkTime newWt = WorkTime(
       name: controllerName.text,
       lastname: controllerLastName.text,
+      workPlace: controllerPlace.text,
       birthDate: birthDate,
       workStart: workStart,
       workEnd: workEnd,
@@ -46,7 +46,7 @@ class _SigninScreenState extends State<SigninScreen> {
     setState(() {
       controllerName.text = "";
       controllerLastName.text = "";
-      workPlace = "";
+      controllerPlace.text = "";
       birthDate = DateTime.now();
       workStart = TimeOfDay.now();
       workEnd = TimeOfDay.now();
@@ -78,9 +78,7 @@ class _SigninScreenState extends State<SigninScreen> {
                   DropdownMenuEntry(value: "MB", label: "Maribor"),
                   DropdownMenuEntry(value: "LJ", label: "Ljubljana"),
                 ],
-                onSelected: (value) {
-                  workPlace = value ?? "";
-                },
+                controller: controllerPlace,
               ),
               DatePicker(
                   onSelected: (value) {

@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 class WorkTime {
   final String? name;
   final String? lastname;
+  final String? workPlace;
   final DateTime? birthDate;
   final TimeOfDay? workStart;
   final TimeOfDay? workEnd;
 
-  const WorkTime({this.name, this.lastname, this.birthDate, this.workStart, this.workEnd});
+  const WorkTime({this.name, this.lastname, this.workPlace, this.birthDate, this.workStart, this.workEnd});
 }
 
 
