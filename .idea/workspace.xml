@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0dfdb0d-b649-411a-a723-d5e26a54ccd4" name="Changes" comment="" />
+    <list default="true" id="b0dfdb0d-b649-411a-a723-d5e26a54ccd4" name="Changes" comment="nal1 - project init">
+      <change afterPath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -64,8 +81,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698085686624</updated>
-      <workItem from="1698085687811" duration="741000" />
+      <workItem from="1698085687811" duration="5492000" />
     </task>
+    <task id="LOCAL-00001" summary="nal1 - project init">
+      <created>1698086495637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698086495637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +106,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nal1 - project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="nal1 - project init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
