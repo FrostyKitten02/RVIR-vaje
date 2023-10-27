@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="intellij workspace">
+    <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="hive storage">
+      <change afterPath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.g.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +28,24 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="naloga1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FrostyKitten02"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="41782f62-30f0-43f2-90f3-a5a882ec5f02" />
+        <option name="url" value="https://github.com/FrostyKitten02/RVIR-vaje.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +102,7 @@
         <env name="PATH" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/bin:$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/sbin:$USER_HOME$/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin" />
         <env name="LC_MEASUREMENT" value="sl_SI.UTF-8" />
         <env name="XAUTHORITY" value="$USER_HOME$/.Xauthority" />
-        <env name="INVOCATION_ID" value="e26c0f4d13ca484b92bde96e11d56171" />
+        <env name="INVOCATION_ID" value="45f56e84ba894952b5e9732e5bcc0b8e" />
         <env name="XMODIFIERS" value="@im=ibus" />
         <env name="LC_TELEPHONE" value="sl_SI.UTF-8" />
         <env name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop" />
@@ -88,14 +112,14 @@
         <env name="SNAP_INSTANCE_KEY" value="" />
         <env name="SNAP_USER_COMMON" value="$USER_HOME$/snap/intellij-idea-ultimate/common" />
         <env name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus" />
-        <env name="SNAP_REVISION" value="455" />
+        <env name="SNAP_REVISION" value="459" />
         <env name="XDG_CURRENT_DESKTOP" value="ubuntu:GNOME" />
-        <env name="JOURNAL_STREAM" value="8:35503" />
+        <env name="JOURNAL_STREAM" value="8:38184" />
         <env name="LC_PAPER" value="sl_SI.UTF-8" />
-        <env name="SESSION_MANAGER" value="local/afridau-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2454,unix/afridau-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2454" />
+        <env name="SESSION_MANAGER" value="local/afridau-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2545,unix/afridau-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2545" />
         <env name="LOGNAME" value="afridau" />
         <env name="PWD" value="$USER_HOME$" />
-        <env name="MANAGERPID" value="2108" />
+        <env name="MANAGERPID" value="2310" />
         <env name="SNAP_UID" value="1000" />
         <env name="INFOPATH" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/share/info:" />
         <env name="LANGUAGE" value="en_US" />
@@ -169,6 +193,7 @@
       <workItem from="1698091708532" duration="378000" />
       <workItem from="1698142191642" duration="41000" />
       <workItem from="1698215259660" duration="163000" />
+      <workItem from="1698400032278" duration="4347000" />
     </task>
     <task id="LOCAL-00001" summary="intellij workspace">
       <created>1698091744704</created>
@@ -177,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698091744704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added hive">
+      <option name="closed" value="true" />
+      <created>1698400217819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698400217819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +229,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intellij workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij workspace" />
+    <MESSAGE value="added hive" />
+    <MESSAGE value="hive storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="hive storage" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/my_flutter_app/lib/main.dart</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart</url>
+          <line>56</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

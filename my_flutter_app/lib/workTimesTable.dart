@@ -6,8 +6,7 @@ import 'model/workTime.dart';
 class WorkTimesTable extends StatelessWidget {
   final List<WorkTime> workTimes;
 
-  //should use const, but issues with Storage
-  WorkTimesTable({required this.workTimes, Key? key}) : super(key: key);
+  const WorkTimesTable({required this.workTimes, Key? key}) : super(key: key);
 
   List<DataColumn> _getColumns() {
     return const [

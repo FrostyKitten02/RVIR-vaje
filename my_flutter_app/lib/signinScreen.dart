@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 import 'package:intl/intl.dart';
 import 'package:my_flutter_app/workTimesTable.dart';
 
@@ -13,6 +14,7 @@ class SigninScreen extends StatefulWidget {
 }
 
 class _SigninScreenState extends State<SigninScreen> {
+  var box = Hive.box('local');
   TextEditingController controllerName = TextEditingController();
   TextEditingController controllerLastName = TextEditingController();
   TextEditingController controllerPlace = TextEditingController();
@@ -21,12 +23,22 @@ class _SigninScreenState extends State<SigninScreen> {
   TimeOfDay workStart = TimeOfDay.now();
   TimeOfDay workEnd = TimeOfDay.now();
 
+
   void toTable() {
+    List<dynamic> wts = box.get("worktimes", defaultValue: const []);
+
+    List<WorkTime> workTimes = List.empty(growable: true);
+    for (dynamic d in wts) {
+      if (d.runtimeType == WorkTime) {
+        workTimes.add(d);
+      }
+    }
+
     Navigator.push(
       context,
       MaterialPageRoute(
           builder: (context) => WorkTimesTable(
-                workTimes: Storage.workTimes,
+                workTimes: workTimes,
               )),
     );
   }
@@ -40,7 +52,13 @@ class _SigninScreenState extends State<SigninScreen> {
       workStart: workStart,
       workEnd: workEnd,
     );
-    Storage.workTimes.add(newWt);
+    //Storage.workTimes.add(newWt);
+
+    List<dynamic> all = box.get("worktimes", defaultValue: (List<WorkTime>));
+    all.add(newWt);
+
+    box.delete("worktimes");
+    box.put("worktimes", all);
 
     //reset fields
     setState(() {
