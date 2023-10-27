@@ -3,21 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="intellij workspace">
       <change beforePath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -30,30 +26,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2XB9ey1DpCT16ouYW9v7lxhTsj5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "io.flutter.reload.alreadyRun": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.36939013",
-    "settings.editor.selected.configurable": "dart.settings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36939013&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/my_flutter_app/lib/main.dart" />
@@ -62,6 +63,98 @@
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
       <option name="passParentEnvironments" value="true" />
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="true" />
+      <option name="buildType" value="" />
+      <option name="bundleLocation" value="" />
+      <option name="developerMode" value="true" />
+      <option name="gogoShellPort" value="11311" />
+      <option name="passParentEnvironments" value="true" />
+      <option name="vmParameters" value="-Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m" />
+      <envs>
+        <env name="PATH" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/bin:$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/sbin:$USER_HOME$/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin" />
+        <env name="LC_MEASUREMENT" value="sl_SI.UTF-8" />
+        <env name="XAUTHORITY" value="$USER_HOME$/.Xauthority" />
+        <env name="INVOCATION_ID" value="e26c0f4d13ca484b92bde96e11d56171" />
+        <env name="XMODIFIERS" value="@im=ibus" />
+        <env name="LC_TELEPHONE" value="sl_SI.UTF-8" />
+        <env name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop" />
+        <env name="GDMSESSION" value="ubuntu" />
+        <env name="LC_TIME" value="sl_SI.UTF-8" />
+        <env name="SNAP_COMMON" value="/var/snap/intellij-idea-ultimate/common" />
+        <env name="SNAP_INSTANCE_KEY" value="" />
+        <env name="SNAP_USER_COMMON" value="$USER_HOME$/snap/intellij-idea-ultimate/common" />
+        <env name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus" />
+        <env name="SNAP_REVISION" value="455" />
+        <env name="XDG_CURRENT_DESKTOP" value="ubuntu:GNOME" />
+        <env name="JOURNAL_STREAM" value="8:35503" />
+        <env name="LC_PAPER" value="sl_SI.UTF-8" />
+        <env name="SESSION_MANAGER" value="local/afridau-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2454,unix/afridau-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2454" />
+        <env name="LOGNAME" value="afridau" />
+        <env name="PWD" value="$USER_HOME$" />
+        <env name="MANAGERPID" value="2108" />
+        <env name="SNAP_UID" value="1000" />
+        <env name="INFOPATH" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/share/info:" />
+        <env name="LANGUAGE" value="en_US" />
+        <env name="GJS_DEBUG_TOPICS" value="JS ERROR;JS LOG" />
+        <env name="SHELL" value="/bin/bash" />
+        <env name="LC_ADDRESS" value="sl_SI.UTF-8" />
+        <env name="GIO_LAUNCHED_DESKTOP_FILE" value="/var/lib/snapd/desktop/applications/intellij-idea-ultimate_intellij-idea-ultimate.desktop" />
+        <env name="HOMEBREW_CELLAR" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/Cellar" />
+        <env name="BAMF_DESKTOP_FILE_HINT" value="/var/lib/snapd/desktop/applications/intellij-idea-ultimate_intellij-idea-ultimate.desktop" />
+        <env name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+        <env name="GTK_MODULES" value="gail:atk-bridge" />
+        <env name="XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+        <env name="SNAP_ARCH" value="amd64" />
+        <env name="SYSTEMD_EXEC_PID" value="2531" />
+        <env name="XDG_SESSION_DESKTOP" value="ubuntu" />
+        <env name="SNAP_LIBRARY_PATH" value="/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void" />
+        <env name="SSH_AGENT_LAUNCHER" value="gnome-keyring" />
+        <env name="SHLVL" value="0" />
+        <env name="SNAP_EUID" value="1000" />
+        <env name="LC_IDENTIFICATION" value="sl_SI.UTF-8" />
+        <env name="LC_MONETARY" value="sl_SI.UTF-8" />
+        <env name="SNAP_NAME" value="intellij-idea-ultimate" />
+        <env name="MANPATH" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/share/man:" />
+        <env name="QT_IM_MODULE" value="ibus" />
+        <env name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg" />
+        <env name="LANG" value="en_US.UTF-8" />
+        <env name="SNAP_INSTANCE_NAME" value="intellij-idea-ultimate" />
+        <env name="XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+        <env name="HOMEBREW_PREFIX" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew" />
+        <env name="XDG_SESSION_TYPE" value="x11" />
+        <env name="SNAP_USER_DATA" value="$USER_HOME$/snap/intellij-idea-ultimate/455" />
+        <env name="DISPLAY" value=":0" />
+        <env name="SNAP_REEXEC" value="" />
+        <env name="HOMEBREW_REPOSITORY" value="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/Homebrew" />
+        <env name="SNAP_VERSION" value="2023.2.3" />
+        <env name="LC_NAME" value="sl_SI.UTF-8" />
+        <env name="XDG_SESSION_CLASS" value="user" />
+        <env name="SNAP_DATA" value="/var/snap/intellij-idea-ultimate/455" />
+        <env name="GDM_LANG" value="en_US" />
+        <env name="XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/afridau" />
+        <env name="GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1" />
+        <env name="DESKTOP_SESSION" value="ubuntu" />
+        <env name="SNAP" value="$APPLICATION_HOME_DIR$" />
+        <env name="USER" value="afridau" />
+        <env name="SNAP_REAL_HOME" value="$USER_HOME$" />
+        <env name="DESKTOP_STARTUP_ID" value="gnome-shell/IntelliJ IDEA Ultimate Edition/2531-0-afridau-ThinkBook-15-G2-ITL_TIME24992" />
+        <env name="XDG_MENU_PREFIX" value="gnome-" />
+        <env name="GIO_LAUNCHED_DESKTOP_FILE_PID" value="3908" />
+        <env name="QT_ACCESSIBILITY" value="1" />
+        <env name="LC_NUMERIC" value="sl_SI.UTF-8" />
+        <env name="GJS_DEBUG_OUTPUT" value="stderr" />
+        <env name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh" />
+        <env name="GNOME_SHELL_SESSION_MODE" value="ubuntu" />
+        <env name="SNAP_CONTEXT" value="TYsACyZd2_XhnakOxraDlA02KUbkjSpgQmKXDp3I0ZHkiASIskHB" />
+        <env name="XDG_RUNTIME_DIR" value="/run/user/1000" />
+        <env name="SNAP_COOKIE" value="TYsACyZd2_XhnakOxraDlA02KUbkjSpgQmKXDp3I0ZHkiASIskHB" />
+        <env name="HOME" value="$USER_HOME$" />
+      </envs>
+      <module name="RVIR-vaje" />
       <method v="2" />
     </configuration>
   </component>
@@ -74,6 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698091706857</updated>
       <workItem from="1698091708532" duration="378000" />
+      <workItem from="1698142191642" duration="41000" />
+      <workItem from="1698215259660" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="intellij workspace">
       <created>1698091744704</created>
