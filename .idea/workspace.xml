@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="nal1 - work place fix">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="nal2 - toast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -38,9 +38,8 @@ class _SigninScreenState extends State<SigninScreen> {
     Navigator.push(
       context,
       MaterialPageRoute(
-          builder: (context) => WorkTimesTable(
-                workTimes: workTimes,
-              )),
+          builder: (context) => const WorkTimeTable(),
+      )
     );
   }
 
