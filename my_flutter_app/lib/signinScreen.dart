@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:intl/intl.dart';
 import 'package:my_flutter_app/workTimesTable.dart';
+import 'package:toastification/toastification.dart';
 
 import 'model/workTime.dart';
 
@@ -52,13 +53,19 @@ class _SigninScreenState extends State<SigninScreen> {
       workStart: workStart,
       workEnd: workEnd,
     );
-    //Storage.workTimes.add(newWt);
 
-    List<dynamic> all = box.get("worktimes", defaultValue: (List<WorkTime>));
+    List<dynamic> all = box.get("worktimes", defaultValue: []);
     all.add(newWt);
 
     box.delete("worktimes");
     box.put("worktimes", all);
+
+
+    toastification.show(
+      context: context,
+      title: 'Shranjevanje uspešno',
+      autoCloseDuration: const Duration(seconds: 2),
+    );
 
     //reset fields
     setState(() {

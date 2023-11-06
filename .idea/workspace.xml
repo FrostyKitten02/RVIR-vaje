@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="hive storage">
-      <change afterPath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.g.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RVIR-vaje.iml" afterDir="false" />
+    <list default="true" id="840dd7f3-69f4-413f-b7ca-f9ca17202065" name="Changes" comment="nal1 - work place fix">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/model/workTime.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/lib/workTimesTable.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_flutter_app/pubspec.yaml" afterDir="false" />
@@ -33,12 +29,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "FrostyKitten02"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FrostyKitten02&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -240,11 +236,6 @@
           <url>file://$PROJECT_DIR$/my_flutter_app/lib/main.dart</url>
           <line>7</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/my_flutter_app/lib/signinScreen.dart</url>
-          <line>56</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
